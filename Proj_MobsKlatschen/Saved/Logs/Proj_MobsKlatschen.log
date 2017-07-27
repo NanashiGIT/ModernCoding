@@ -1,0 +1,491 @@
+﻿Log file open, 07/27/17 21:45:20
+LogInit:Display: Running engine for game: Proj_MobsKlatschen
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1790759864) SRandInit(-1790759864).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080897
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.27-19.45.20:427][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-19.45.20:427][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.27-19.45.20:436][  0]LogInit: Computer: DESKTOP-NANASHI
+[2017.07.27-19.45.20:436][  0]LogInit: User: Nanashi
+[2017.07.27-19.45.20:436][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.27-19.45.20:436][  0]LogInit: High frequency timer resolution =3.320310 MHz
+[2017.07.27-19.45.20:437][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.27-19.45.20:437][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.27-19.45.20:437][  0]LogMemory: Process Physical Memory: 272.18 MB used, 272.18 MB peak
+[2017.07.27-19.45.20:437][  0]LogMemory: Process Virtual Memory: 258.55 MB used, 258.55 MB peak
+[2017.07.27-19.45.20:437][  0]LogMemory: Physical Memory: 5471.96 MB used,  2668.82 MB free, 8140.78 MB total
+[2017.07.27-19.45.20:437][  0]LogMemory: Virtual Memory: 635.53 MB used,  2668.82 MB free, 134217728.00 MB total
+[2017.07.27-19.45.20:486][  0]LogInit: Using OS detected language (en-US).
+[2017.07.27-19.45.20:486][  0]LogInit: Using OS detected locale (de-DE).
+[2017.07.27-19.45.20:488][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.27-19.45.20:488][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en-US' will be used for the locale.
+[2017.07.27-19.45.21:212][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.27-19.45.21:236][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.07.27-19.45.21:236][  0]LogD3D11RHI:       6103/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.27-19.45.21:237][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.27-19.45.21:237][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.27-19.45.21:237][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.27-19.45.21:242][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.27-19.45.21:242][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.27-19.45.21:242][  0]LogWindows: EnumDisplayDevices:
+[2017.07.27-19.45.21:242][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.07.27-19.45.21:242][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2017.07.27-19.45.21:242][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.07.27-19.45.21:242][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.07.27-19.45.21:242][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.27-19.45.21:242][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.07.27-19.45.21:242][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.07.27-19.45.21:242][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.07.27-19.45.21:242][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.27-19.45.21:258][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.27-19.45.21:267][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.27-19.45.21:310][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Intermediate/Shaders/WorkingDirectory/9312/).
+[2017.07.27-19.45.21:310][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nanashi/AppData/Local/Temp/UnrealShaderWorkingDir/5612C158431C7909913262B461BCD154/'.
+[2017.07.27-19.45.21:310][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.27-19.45.22:114][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.27-19.45.22:153][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.27-19.45.22:191][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.27-19.45.22:228][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.27-19.45.22:266][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.27-19.45.22:303][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.27-19.45.22:341][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.27-19.45.22:378][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.27-19.45.22:411][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.27-19.45.22:448][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.27-19.45.22:484][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.27-19.45.22:520][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.27-19.45.22:555][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.27-19.45.22:591][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.27-19.45.22:627][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.27-19.45.22:699][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.27-19.45.22:699][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.27-19.45.22:727][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.27-19.45.22:801][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.27-19.45.22:823][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.27-19.45.22:858][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.27-19.45.22:894][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.27-19.45.22:930][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.27-19.45.22:965][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.27-19.45.22:965][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.27-19.45.23:328][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.27-19.45.23:406][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Nanashi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-19.45.23:406][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nanashi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.27-19.45.23:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.27-19.45.23:406][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.27-19.45.23:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.27-19.45.23:406][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.27-19.45.23:419][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.27-19.45.23:431][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nanashi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.27-19.45.23:438][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.27-19.45.23:439][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.27-19.45.23:439][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-19.45.23:439][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-19.45.23:683][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-19.45.23:742][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.27-19.45.23:861][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.27-19.45.23:893][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.27-19.45.23:929][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.27-19.45.23:929][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.27-19.45.23:929][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.27-19.45.24:345][  0]LogNetVersion: Proj_MobsKlatschen , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 286726224)
+[2017.07.27-19.45.24:397][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2017.07.27-19.45.24:443][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.028472 seconds
+[2017.07.27-19.45.24:448][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.27-19.45.24:448][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.27-19.45.24:448][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.27-19.45.24:496][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.27-19.45.26:300][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.27-19.45.26:339][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.27-19.45.26:741][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.27-19.45.27:035][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.45.27:036][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.45.27:071][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.45.27:106][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.45.27:299][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.07.27-19.45.27:299][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.07.27-19.45.27:299][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.07.27-19.45.27:623][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.27-19.45.28:065][  0]LogEngine: Initializing Engine...
+[2017.07.27-19.45.28:065][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.27-19.45.28:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.27-19.45.28:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.27-19.45.28:315][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.27-19.45.28:324][  0]LogInit: XAudio2 using 'Headphones (ASUS XONAR PHOEBUS Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.27-19.45.28:346][  0]LogInit: FAudioDevice initialized.
+[2017.07.27-19.45.28:384][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Nanashi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-19.45.28:397][  0]LogInit: Texture streaming: Enabled
+[2017.07.27-19.45.28:468][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.27-19.45.28:625][  0]LogInit: Transaction tracking system initialized
+[2017.07.27-19.45.28:848][  0]BlueprintLog: New page: Editor Load
+[2017.07.27-19.45.29:558][  0]LocalizationService: Info Localization service is disabled
+[2017.07.27-19.45.30:057][  0]LogConsoleResponse:Display: 
+[2017.07.27-19.45.30:167][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.27-19.45.30:167][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.27-19.45.30:924][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/ModernCoding/Proj_MobsKlatschen/Content/' took 0.01s
+[2017.07.27-19.45.30:924][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.45.30:925][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.07.27-19.45.30:931][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.07.27-19.45.30:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.07.27-19.45.30:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.07.27-19.45.30:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.07.27-19.45.30:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.07.27-19.45.30:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.07.27-19.45.30:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.07.27-19.45.30:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.07.27-19.45.30:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.07.27-19.45.30:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.07.27-19.45.30:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.07.27-19.45.30:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.07.27-19.45.30:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.07.27-19.45.30:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.07.27-19.45.30:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.07.27-19.45.30:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.07.27-19.45.30:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.07.27-19.45.30:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.07.27-19.45.30:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Fire01.uasset"
+[2017.07.27-19.45.30:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.07.27-19.45.30:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.07.27-19.45.30:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.07.27-19.45.30:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Light01.uasset"
+[2017.07.27-19.45.31:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.07.27-19.45.31:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Light02.uasset"
+[2017.07.27-19.45.31:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.07.27-19.45.31:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.07.27-19.45.31:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.07.27-19.45.31:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.07.27-19.45.31:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.07.27-19.45.31:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.07.27-19.45.31:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.07.27-19.45.31:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.07.27-19.45.31:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.07.27-19.45.31:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Steam01.uasset"
+[2017.07.27-19.45.31:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.07.27-19.45.31:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.07.27-19.45.31:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.07.27-19.45.31:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.07.27-19.45.31:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.07.27-19.45.31:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.07.27-19.45.31:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.07.27-19.45.31:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.07.27-19.45.31:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.07.27-19.45.31:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.07.27-19.45.31:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.07.27-19.45.31:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.07.27-19.45.31:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.07.27-19.45.31:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.07.27-19.45.31:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.07.27-19.45.31:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.07.27-19.45.31:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.07.27-19.45.31:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.07.27-19.45.31:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.07.27-19.45.31:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.07.27-19.45.31:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.07.27-19.45.31:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.07.27-19.45.31:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Maps/StarterMap.umap"
+[2017.07.27-19.45.31:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.07.27-19.45.31:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.07.27-19.45.31:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.07.27-19.45.31:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.07.27-19.45.31:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.07.27-19.45.31:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.07.27-19.45.31:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.07.27-19.45.31:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.07.27-19.45.31:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.07.27-19.45.31:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.07.27-19.45.31:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.07.27-19.45.31:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.07.27-19.45.31:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.07.27-19.45.31:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.07.27-19.45.31:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.07.27-19.45.31:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.07.27-19.45.31:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.07.27-19.45.31:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.07.27-19.45.31:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.07.27-19.45.31:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.07.27-19.45.31:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.07.27-19.45.31:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.07.27-19.45.31:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.07.27-19.45.31:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.07.27-19.45.31:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.07.27-19.45.31:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.07.27-19.45.31:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.07.27-19.45.31:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.07.27-19.45.31:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.07.27-19.45.31:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.07.27-19.45.31:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.07.27-19.45.31:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.07.27-19.45.31:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.07.27-19.45.31:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.07.27-19.45.31:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.07.27-19.45.31:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.07.27-19.45.31:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.07.27-19.45.31:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.07.27-19.45.31:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.07.27-19.45.31:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.07.27-19.45.31:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.07.27-19.45.31:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.07.27-19.45.31:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.07.27-19.45.31:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.07.27-19.45.31:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.07.27-19.45.31:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.07.27-19.45.31:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.07.27-19.45.31:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.07.27-19.45.31:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.07.27-19.45.31:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.07.27-19.45.31:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.07.27-19.45.31:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.07.27-19.45.31:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.07.27-19.45.31:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.07.27-19.45.31:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.07.27-19.45.31:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.07.27-19.45.31:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.07.27-19.45.31:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.07.27-19.45.31:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.07.27-19.45.31:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.07.27-19.45.31:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.07.27-19.45.31:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.07.27-19.45.31:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.07.27-19.45.31:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.07.27-19.45.31:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.07.27-19.45.31:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Door.uasset"
+[2017.07.27-19.45.31:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.07.27-19.45.31:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.07.27-19.45.31:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.07.27-19.45.31:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.07.27-19.45.31:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.07.27-19.45.31:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.07.27-19.45.31:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.07.27-19.45.31:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.07.27-19.45.31:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.07.27-19.45.31:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.07.27-19.45.31:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.07.27-19.45.31:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.07.27-19.45.31:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.07.27-19.45.31:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.07.27-19.45.31:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.07.27-19.45.31:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.07.27-19.45.31:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.07.27-19.45.31:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.07.27-19.45.31:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.07.27-19.45.31:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.07.27-19.45.31:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.07.27-19.45.31:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.07.27-19.45.31:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.07.27-19.45.31:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.07.27-19.45.31:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.07.27-19.45.31:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.07.27-19.45.31:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.07.27-19.45.31:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.07.27-19.45.31:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.07.27-19.45.31:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.07.27-19.45.31:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.07.27-19.45.31:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.07.27-19.45.31:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.07.27-19.45.31:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.07.27-19.45.31:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.07.27-19.45.31:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.07.27-19.45.31:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.07.27-19.45.31:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.07.27-19.45.31:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.07.27-19.45.31:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.07.27-19.45.31:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.07.27-19.45.31:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.07.27-19.45.31:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.07.27-19.45.31:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.07.27-19.45.31:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.07.27-19.45.31:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.07.27-19.45.31:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.07.27-19.45.31:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.07.27-19.45.31:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.07.27-19.45.31:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.07.27-19.45.31:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.07.27-19.45.31:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.07.27-19.45.31:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.07.27-19.45.31:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.07.27-19.45.31:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.07.27-19.45.31:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.07.27-19.45.31:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.07.27-19.45.31:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.07.27-19.45.31:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.07.27-19.45.31:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.07.27-19.45.31:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.07.27-19.45.31:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.07.27-19.45.31:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.07.27-19.45.31:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.07.27-19.45.31:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.07.27-19.45.31:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.07.27-19.45.31:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.07.27-19.45.31:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.07.27-19.45.31:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.07.27-19.45.31:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.07.27-19.45.31:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.07.27-19.45.31:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.07.27-19.45.31:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.07.27-19.45.31:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.07.27-19.45.31:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.07.27-19.45.31:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.07.27-19.45.31:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.07.27-19.45.31:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.07.27-19.45.31:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.07.27-19.45.31:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.07.27-19.45.31:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.07.27-19.45.31:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.07.27-19.45.31:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.07.27-19.45.31:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.07.27-19.45.31:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.07.27-19.45.32:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.07.27-19.45.32:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.07.27-19.45.32:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.07.27-19.45.32:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.07.27-19.45.32:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.07.27-19.45.32:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.07.27-19.45.32:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.07.27-19.45.32:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.07.27-19.45.32:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.07.27-19.45.32:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.07.27-19.45.32:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.07.27-19.45.32:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.07.27-19.45.32:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.07.27-19.45.32:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.07.27-19.45.32:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.07.27-19.45.32:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.07.27-19.45.32:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.07.27-19.45.32:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.07.27-19.45.32:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.07.27-19.45.32:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.07.27-19.45.32:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.07.27-19.45.32:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.07.27-19.45.32:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.07.27-19.45.32:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.07.27-19.45.32:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.07.27-19.45.32:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.07.27-19.45.32:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.07.27-19.45.32:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.07.27-19.45.32:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.07.27-19.45.32:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.07.27-19.45.33:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.07.27-19.45.33:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.07.27-19.45.33:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.07.27-19.45.33:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.07.27-19.45.33:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.07.27-19.45.33:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.07.27-19.45.33:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.07.27-19.45.33:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.07.27-19.45.33:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.07.27-19.45.33:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.07.27-19.45.33:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.07.27-19.45.33:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.07.27-19.45.33:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.07.27-19.45.33:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.07.27-19.45.33:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.07.27-19.45.33:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.07.27-19.45.33:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.07.27-19.45.33:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.07.27-19.45.33:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.07.27-19.45.33:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.07.27-19.45.33:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.07.27-19.45.33:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.07.27-19.45.33:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.07.27-19.45.33:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.07.27-19.45.33:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.07.27-19.45.33:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.07.27-19.45.33:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.07.27-19.45.33:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.07.27-19.45.33:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.07.27-19.45.33:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.07.27-19.45.33:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.07.27-19.45.33:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.07.27-19.45.33:824][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.07.27-19.45.33:944][  0]LogSavePackage: Save=10.59ms
+[2017.07.27-19.45.33:944][  0]LogSavePackage: Moving '../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Saved/Floor_400x40089A17EDA4ED01ED6F62A28BA425A2A0D.tmp' to '../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.07.27-19.45.33:948][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.07.27-19.45.33:948][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.07.27-19.45.33:951][  0]Cmd: MAP LOAD FILE="../../../../../../Workspace/ModernCoding/Proj_MobsKlatschen/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.27-19.45.33:952][  0]LightingResults: New page: Lighting Build
+[2017.07.27-19.45.33:982][  0]MapCheck: New page: Map Check
+[2017.07.27-19.45.33:982][  0]LightingResults: New page: Lighting Build
+[2017.07.27-19.45.34:332][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.07.27-19.45.34:339][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.27-19.45.34:351][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.27-19.45.34:393][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.685ms to complete.
+[2017.07.27-19.45.34:393][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.442
+[2017.07.27-19.45.34:464][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-19.45.34:531][  0]LogCollectionManager: Loaded 0 collections in 0.001307 seconds
+[2017.07.27-19.45.34:646][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/ModernCoding/Proj_MobsKlatschen/Saved/Collections/' took 0.01s
+[2017.07.27-19.45.34:646][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/ModernCoding/Proj_MobsKlatschen/Content/Developers/Nanashi/Collections/' took 0.01s
+[2017.07.27-19.45.34:646][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/ModernCoding/Proj_MobsKlatschen/Content/Collections/' took 0.01s
+[2017.07.27-19.45.34:646][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.27-19.45.34:654][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2329 classes and 491 folders.
+[2017.07.27-19.45.34:703][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.27-19.45.34:736][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.27-19.45.34:769][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.27-19.45.34:798][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.27-19.45.34:802][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-19.45.34:803][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.27-19.45.34:808][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.27-19.45.34:834][  0]LogRenderer: Reallocating scene render targets to support 1616x796 NumSamples 1 (Frame:1).
+[2017.07.27-19.45.34:948][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.27-19.45.35:003][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.27-19.45.35:003][  0]LogLoad: (Engine Initialization) Total time: 15.82 seconds
+[2017.07.27-19.45.35:003][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.07.27-19.45.35:003][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.27-19.45.35:003][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.27-19.45.35:013][  0]LogOcInput: OculusInput pre-init called
+[2017.07.27-19.45.35:013][  0]LogHMD: Starting GearVRController plugin
+[2017.07.27-19.45.35:029][  0]LogAssetRegistry: Asset discovery search completed in 10.6529 seconds
+[2017.07.27-19.45.35:030][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.27-19.45.35:030][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.07.27-19.45.35:438][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.27-19.45.58:330][486]SourceControl: Info On branch master
+[2017.07.27-19.45.58:330][486]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.07.27-19.45.58:330][486]SourceControl: Info Untracked files:
+[2017.07.27-19.45.58:330][486]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.27-19.45.58:330][486]SourceControl: Info 	Proj_MobsKlatschen/
+[2017.07.27-19.45.58:330][486]SourceControl: Info nothing added to commit but untracked files present (use "git add" to track)
